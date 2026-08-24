@@ -2,6 +2,9 @@
   "name": "nectir-qa-challenge",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "test": "playwright test",
     "test:report": "playwright show-report"
